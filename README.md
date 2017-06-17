@@ -1,4 +1,4 @@
-# Java Project
+# Java-Project
 ## Project which covers Java Fundamental Concepts
 
 *Basic DAta Type, Flow Control and Loops*
