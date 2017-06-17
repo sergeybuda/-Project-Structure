@@ -3,7 +3,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.sqa.jf</groupId>
-  <artifactId>basic-project</artifactId>
+  <artifactId>java-project</artifactId>
   <version>1.0</version>
   
   <dependencies>
@@ -15,9 +15,9 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <scope>test</scope>
 	</dependency>
   	</dependencies>
-  	<build>
-    	<plugins>
-   			 <plugin>
+  		<build>
+    					<plugins>
+   			 	<plugin>
     						<groupId>org.apache.maven.plugins </groupId>
    							 <artifactId>maven-compiler-plugin</artifactId>
     						<version>3.3</version>
@@ -25,7 +25,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
    									 <source>1.8</source>
    									<target>1.8</target>
    						    </configuration>
-        </plugin>
-    </plugins>
-  </build>
+       			       </plugin>
+    					</plugins>
+  		</build>
 </project>
